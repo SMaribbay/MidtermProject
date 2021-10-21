@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+  margin:auto;
+  background-color: #F2EEAC;
+}
+
+h1{
+font-family: 'PT Serif', serif;
+text-align: center;
+padding: 16px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.wai {
+  background-color: #01260E;
+  overflow: hidden;
+  top: 0;
+  width:100%;
+position: sticky;
+}
+
+
+.wai a {
+  float: left;
+  color: #F2F2DF;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+
+.wai a:hover {
+  background-color: #F2E8B6;
+  color: black;
+}
+
+
+.wai a.active {
+  background-color: #26010B;
+  color: #F2E8B6;
+}
+.wongKar{
+  padding-left: 40px;
+  float: left;
+  width:500px;
+  height:auto;
+
+}
+
+.Car{
+
+   width: 550px;
+   height: 380;
+   padding: 20px;
+   border: 10px inset #733620;
+   margin-right: 40px;
+   float: right;
+
+
+}
+.text{
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+
+.fayeWong{
+width:350px;
+height: auto;
+position: relative;
+margin-left: 40px;
+border: 4px outset #8C1822;
+float: inherit;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+  margin:auto;
+  background-color: #400101;
+}
+
+h1{
+font-family: 'PT Serif', serif;
+text-align: center;
+padding: 16px;
+  margin-top: 30px;
+  font-size: 40px;
+  color: #D2D3D9;
+}
+.wai {
+  background-color: #01260E;
+  overflow: hidden;
+  top: 0;
+  width:100%;
+position: sticky;
+}
+
+
+.wai a {
+  float: left;
+  color: #F2F2DF;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+
+.wai a:hover {
+  background-color: #F2E8B6;
+  color: black;
+}
+
+
+.wai a.active {
+  background-color: #26010B;
+  color: #F2E8B6;
+}
+
+img{
+  float: inherit;
+    width:  300px;
+    height: auto;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.Kar{
+  display:flex;
+  padding-right: 40px;
+  padding-left: 40px;
+float: none;
+justify-content: center;
+
+}
+.wongKar{
+  flex: 33.33%;
+ padding: 20px;
+ text-align: center;
+    width: 300px;
+    border: 3px outset #D95F5F;
+
+}
+
+
+p{
+  display: flex;
+  font-size: 20px;
+color: #D97E7E;
+ border: 10px inset #D95F5F;
+ padding: 20px;
+ width: auto;
+ justify-content: center;
+ background-color: #261421;
+}
+.maggie{
+  float: inherit;
+    width:  400px;
+    height: auto;
+    object-fit: contain;
+    justify-content: center;
+
+}
